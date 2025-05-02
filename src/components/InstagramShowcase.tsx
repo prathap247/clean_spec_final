@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: 'SANJAI K',
     car: 'Hunter 350',
-    image: 'https://imgs.search.brave.com/dItk2dkEMFEc8o7BBjTNTN_5wmmKIDJ9tBqAxOqq3iA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi95b3Vu/Zy1zbWlsaW5nLXNv/dXRoLWluZGlhbi10/YW1pbC1tYW4tbG9u/Zy1oYWlycy1iZWFy/ZC13ZWFyaW5nLWZ1/bGwtc2xlZXZlcy1o/dWdnaW5nLWhpbXNl/bGYtb25lc2VsZi1z/ZWxmLWNhcmUtd2hp/dGUtMjE5MDIzODI1/LmpwZw',
+    image: '/insta1.jpeg',
     content: 'I recently got PPF done for my Hunter 350 at Clean Spec Automotive, and I couldn’t be happier with the results. The team was professional, detail-oriented, and clearly passionate about what they do. The finish is absolutely flawless '
   },
   {

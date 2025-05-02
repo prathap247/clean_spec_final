@@ -4,10 +4,10 @@ import { ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const images = [
-  "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?auto=format&fit=crop&q=80",
-  "https://wallpapers.com/images/hd/aesthetic-4k-car-smoky-tire-dl19uf0v57dgj1r9.jpg",
-  "https://wallpapers.com/images/hd/aesthetic-4k-car-face-to-face-tk6rxm6t2fgw5h6m.jpg",
-  "https://img.freepik.com/free-photo/luxurious-car-parked-highway-with-illuminated-headlight-sunset_181624-60607.jpg?semt=ais_hybrid&w=740"
+  "/kia.JPEG",
+  "/kiaa.JPEG",
+  "/thar.JPEG",
+  "/tharr.JPEG"
 ];
 
 const Hero = () => {
