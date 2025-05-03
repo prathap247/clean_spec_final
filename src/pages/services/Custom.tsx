@@ -27,7 +27,7 @@ const specialties = [
   {
     name: "Show Cars",
     description: "Competition-level preparation and detailing",
-    coverage: ["Concours preparation", "Judge's inspection prep", "Display cleaning", "Transport protection"],
+    coverage: ["Concours preparation", "Judge's inspection prep", "Display cleaning", "Transport protection","correction for mirror finish"],
     price: "Custom Quote"
   }
 ];
@@ -69,7 +69,7 @@ const expertise = [
       "Dye transfer prevention",
       "Wear protection"
     ],
-    image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80"
+    image: "https://i.pinimg.com/736x/b5/8b/b1/b58bb18288f48cd8e8c281b0f3bc3146.jpg"
   },
   {
     name: "Fabric & Carpet Restoration",
@@ -80,7 +80,7 @@ const expertise = [
       "Fabric protection coatings",
       "Pet hair & allergen removal"
     ],
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80"
+    image: "https://i.shgcdn.com/cfe974e8-cb83-433d-bfd9-53d25c51160e/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
   },
   {
     name: "Interior Trim Detailing",
@@ -91,7 +91,7 @@ const expertise = [
       "Gloss or matte finish restoration",
       "Infotainment screen cleaning"
     ],
-    image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80"
+    image: "https://media.istockphoto.com/id/1468882248/video/young-handsome-concentrated-bearded-man-using-cleaning-brush-and-removing-dust-from-car-air.jpg?s=640x640&k=20&c=BkTkireW-_ZFtrVeaTNy83YB47OdsMpy6ZyI44EPFV4="
   }
 ];
 
@@ -157,7 +157,7 @@ const Custom = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80"
+                src="https://t4.ftcdn.net/jpg/01/98/46/57/360_F_198465715_4bEEoXMMKdRq3cPtRmzzkgbCfUrjZ6hT.jpg"
                 alt="Custom Detailing"
                 className="rounded-lg shadow-xl"
               />

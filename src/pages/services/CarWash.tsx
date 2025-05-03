@@ -69,7 +69,7 @@ const products = [
       "Concentrated formula",
       "Gentle on coatings"
     ],
-    image: "https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&q=80"
+    image: "https://images.squarespace-cdn.com/content/v1/614ed0ba2d0cda37fd4d1823/1679266919802-06JNN30X5L1I044S9P8T/Lucid-Detailing-Store---Gyeon-Bathe.jpg?format=1500w"
   },
   {
     name: "CarPro Reset",
@@ -80,7 +80,7 @@ const products = [
       "Residue-free finish",
       "Concentrated solution"
     ],
-    image: "https://images.unsplash.com/photo-1600705722908-bab2ad1a6919?auto=format&fit=crop&q=80"
+    image: "https://i0.wp.com/www.cardetail.be/wp-content/uploads/2020/03/CARPRO-Reset-Demo-Taycan-3.webp?fit=1000%2C1000&ssl=1https://www.cleanyourcar.co.uk/image/cache/catalog/product/carpro/reset/carpro-reset-512x473w.jpg"
   },
   {
     name: "Mafra",
@@ -91,7 +91,8 @@ const products = [
       "Strong cleaning power",
       "Safe on all materials"
     ],
-    image: "https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?auto=format&fit=crop&q=80"
+    image: "https://rukminim2.flixcart.com/image/850/1000/xif0q/car-interior-cleaner/f/i/d/1-ma-ch-10-mafra-original-imaghqrmakkyvvh2.jpeg?q=90&crop=false"
+
   }
 ];
 
@@ -162,7 +163,7 @@ const CarWash = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&q=80"
+                src="https://5.imimg.com/data5/SELLER/Default/2022/9/IS/JY/TV/151211649/best-car-cleaning-services-in-gurgaon-1-.jpg"
                 alt="Premium Car Wash"
                 className="rounded-lg shadow-xl"
               />

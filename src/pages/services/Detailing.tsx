@@ -69,7 +69,7 @@ const products = [
       "Advanced backing plate",
       "Premium pads included"
     ],
-    image: "https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?auto=format&fit=crop&q=80"
+    image: "https://millin.co.nz/cdn/shop/articles/Rupes_BigFoot_Polishing_Systems.jpg?v=1728434273&width=1600"
   },
   {
     name: "menzerna",
@@ -80,7 +80,7 @@ const products = [
       "High gloss finish",
       "Easy cleanup"
     ],
-    image: "https://images.unsplash.com/photo-1605515298946-d664fc6fe12e?auto=format&fit=crop&q=80"
+    image: "https://www.menzerna.com/fileadmin/ns_theme_menzerna/Bilder/Autopolitur/Produktbilder/Produkt_Hintergrund/menzerna_Autopolitur_1100x1100_2400.jpg"
   },
   {
     name: "Detroit polishing component",
@@ -91,7 +91,7 @@ const products = [
       "Leather care",
       "Odor elimination"
     ],
-    image: "https://images.unsplash.com/photo-1600705722908-bab2ad1a6919?auto=format&fit=crop&q=80"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRonWoWhpPJ0OJ-DZOIlcgBSid7dlmgUxBkSQ&s"
   }
 ];
 
@@ -164,7 +164,7 @@ const Detailing = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?auto=format&fit=crop&q=80"
+                src="https://surfnshine.com/wp-content/uploads/2023/10/car-exterior-detailing-1024x576.jpg"
                 alt="Professional Detailing"
                 className="rounded-lg shadow-xl"
               />

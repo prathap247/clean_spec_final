@@ -69,7 +69,8 @@ const products = [
       "UV resistance",
       "Chemical resistance"
     ],
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80"
+    image: "https://imgs.search.brave.com/G-Befe8kO81-Y7g9fRT3iHbQnT17gFX3WXtdU0Ymo0w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcm9q/ZXByb2R1Y3RzLmNv/bS9jZG4vc2hvcC9m/aWxlcy85SC1DZXJh/bWljLUNvYXRpbmct/TFMyLmpwZz9jcm9w/PWNlbnRlciZoZWln/aHQ9ODAwJnY9MTcx/NTYzNzc0OSZ3aWR0/aD04MDA"
+
   },
   {
     name: "IGL Coatings Kenzo",
@@ -80,7 +81,7 @@ const products = [
       "Enhanced scratch resistance",
       "5-year warranty"
     ],
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80"
+    image: "https://imgs.search.brave.com/QzhiPp1SIPnbGsdNHjXz8MnqOQt592zNv4WjPvf45j8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pZ2xj/b2F0aW5ncy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDYvS2Vuem8tR3Jh/cGhlbmVfUExfU01Q/XzE0X2lnbC0xMC5q/cGVn"
   },
   {
     name: "Gtechniq Crystal Serum Ultra",
@@ -91,7 +92,7 @@ const products = [
       "Chemical resistance",
       "Lifetime warranty"
     ],
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80"
+    image: "https://imgs.search.brave.com/Bl27adSak72lRsAFz5SflJ5LhglC9aX78JH2ttszJeM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ndGVj/aG5pcS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjAvMDUv/U0hPVVQ0LTM0Lmpw/Zw"
   }
 ];
 
@@ -218,7 +219,7 @@ const CeramicCoating = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80"
+                src="https://imgs.search.brave.com/LP_hkxTAP572Sz3YN17440Se1lKXXk858WmORJNTc4k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9jYXIt/dmFybmlzaC1wcm90/ZWN0aW9uLWNlcmFt/aWMtY29hdGluZy1h/cHBsaWNhdGlvbi1y/b3lhbHR5LWZyZWUt/aW1hZ2UtMTczMzE2/MDk0NS5qcGc_Y3Jv/cD0xeHc6MXhoO2Nl/bnRlcix0b3AmcmVz/aXplPTk4MDoq"
                 alt="Ceramic Coating Application"
                 className="rounded-lg shadow-xl"
               />

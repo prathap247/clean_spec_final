@@ -69,7 +69,7 @@ const products = [
       "Superior heat dissipation",
       "Anti-static properties"
     ],
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80"
+    image: "https://m.media-amazon.com/images/S/aplus-media-library-service-media/fa8ff251-7793-4bb9-9c93-423046cd9ff4.__CR0,0,300,300_PT0_SX300_V1___.jpg"
   },
   {
     name: "Ard shine",
@@ -80,7 +80,7 @@ const products = [
       "Advanced water behavior",
       "10-year durability"
     ],
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80"
+    image: "https://m.media-amazon.com/images/I/71ZCkovVqcL.jpg"
   },
   {
     name: "Jade",
@@ -91,7 +91,7 @@ const products = [
       "Thermal conductivity",
       "Lifetime warranty"
     ],
-    image: "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80"
+    image: "https://ethoscarcare.com/cdn/shop/files/graphene-coating-lifestyle_700x.jpg?v=1705631880"
   }
 ];
 
@@ -218,7 +218,7 @@ const GrapheneCoating = () => {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80"
+                src="https://fortifycarcare.in/wp-content/uploads/2024/10/Graphene-Spray-Coating-1-1.jpg"
                 alt="Graphene Coating Application"
                 className="rounded-lg shadow-xl"
               />

@@ -69,7 +69,7 @@ const products = [
       "Stain-resistant top coat",
       "Enhanced durability"
     ],
-    image: "https://t3.ftcdn.net/jpg/04/28/62/22/360_F_428622212_JgUxob2c2Vzeeh9TcITmvl7vrtqEzu78.jpg"
+    image: "https://imgs.search.brave.com/wtNzEFQG4C52Po6JmwPjMVDIK8_r_xpUvyKswWGBybQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGV0YWlsaW5nZGV2/aWxzLmNvbS91cGxv/YWRzL2ltZy8yMDE5/LzNtLXBwZi5qcGc"
   },
   {
     name: "Shield Pro",
@@ -80,7 +80,7 @@ const products = [
       "Hydrophobic surface",
       "UV resistant"
     ],
-    image: "https://t3.ftcdn.net/jpg/04/28/62/22/360_F_428622212_JgUxob2c2Vzeeh9TcITmvl7vrtqEzu78.jpg"
+    image: "https://imgs.search.brave.com/ZA9pUmsldlC121kZxn2pl0HCyUrgxgd2ccHcR_A2jRg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2xlYXJwcm8uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDI0/LzA0LyVFNSVCRSVB/RSVFNCVCRiVBMSVF/NSU5QiVCRSVFNyU4/OSU4N18yMDI0MDQy/NDEwMzMyMS53ZWJw"
   },
   {
     name: "LLumar",
@@ -91,7 +91,8 @@ const products = [
       "Superior impact resistance",
       "Advanced stain resistance"
     ],
-    image: "https://t3.ftcdn.net/jpg/04/28/62/22/360_F_428622212_JgUxob2c2Vzeeh9TcITmvl7vrtqEzu78.jpg"
+    image: "https://imgs.search.brave.com/hLHtVpKIBDFsCWmPMhY7hODNK1rHzNCBdmiDHJU3zpI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9saXJw/LmNkbi13ZWJzaXRl/LmNvbS9jYzI5YTQz/MS9kbXMzcmVwL211/bHRpL29wdC9wYWlu/dCtwcm90ZWN0aW9u/K2ZpbG0rMjAxLTE5/MjB3LmpwZWc"
+
   }
 ];
 
@@ -218,7 +219,7 @@ const PaintProtection = () => {
               className="relative"
             >
               <img
-                src="https://t3.ftcdn.net/jpg/04/28/62/22/360_F_428622212_JgUxob2c2Vzeeh9TcITmvl7vrtqEzu78.jpg"
+                src="https://imgs.search.brave.com/3xoYsKiAWxXCRledxNKB50ZuEn6yXhV0MASfBCRfcVI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzY0Lzc5LzIy/LzM2MF9GXzI2NDc5/MjI1NV90blBSZXg3/cDB3dXJtdVNsQnZI/N3FlaUdweVFKWUVT/SC5qcGc"
                 alt="PPF Installation"
                 className="rounded-lg shadow-xl"
               />
