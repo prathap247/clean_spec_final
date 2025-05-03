@@ -4,22 +4,40 @@ import { Shield, Trophy, Clock, Car, Star, Users, ThumbsUp, Award, SprayCan, Spa
 
 const testimonials = [
   {
-    name: 'Rajesh Kumar',
-    car: 'BMW 5 Series',
-    image: 'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?auto=format&fit=crop&q=80',
-    content: 'Exceptional service by Clean Spec! The ceramic coating on my BMW looks stunning. Their attention to detail and professionalism is remarkable. Highly recommended for luxury car owners.'
+    name: 'SANJAI K',
+    car: 'Hunter 350',
+    image: 'https://imgs.search.brave.com/dItk2dkEMFEc8o7BBjTNTN_5wmmKIDJ9tBqAxOqq3iA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi95b3Vu/Zy1zbWlsaW5nLXNv/dXRoLWluZGlhbi10/YW1pbC1tYW4tbG9u/Zy1oYWlycy1iZWFy/ZC13ZWFyaW5nLWZ1/bGwtc2xlZXZlcy1o/dWdnaW5nLWhpbXNl/bGYtb25lc2VsZi1z/ZWxmLWNhcmUtd2hp/dGUtMjE5MDIzODI1/LmpwZw',
+    content: 'I recently got PPF done for my Hunter 350 at Clean Spec Automotive, and I couldn’t be happier with the results. The team was professional, detail-oriented, and clearly passionate about what they do. The finish is absolutely flawless '
   },
   {
     name: 'Priya Sundaram',
-    car: 'Mercedes-Benz GLC',
+    car: 'Thar',
     image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80',
-    content: 'Outstanding paint protection film installation! The team at Clean Spec is highly skilled and professional. My Mercedes looks better than when it left the showroom.'
+    content: 'My car is black color which got faded in this 3 and half years. They suggested me to opt for ceramic polish which restored the color and the finish was more than I expected. Thank you so much Clean spec and team.'
   },
   {
     name: 'Karthik Raman',
-    car: 'Audi Q7',
+    car: 'Honda City',
     image: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&q=80',
-    content: 'The graphene coating service at Clean Spec is top-notch. Their expertise and commitment to quality are evident in the final result. My Audi has never looked better!'
+    content: 'Recently did ceramic protection and carpro sunflim from cleanspec. Totally satisfied with the work and strongly recommend to others. Sasi and his team are true professionals in all kind of detailing works. Keep up the good work cleanspec.'
+  },
+  {
+    name: 'Prathap D',
+    car: 'Toyota Fortuner',
+    image: 'https://imgs.search.brave.com/k4CFTW0BIPAt_SS5tA9qD-BHNvkUfJ4AiFXN5PmfR7w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM2/MjQ0ODc4MC9waG90/by9jYW5kaWQtcG9y/dHJhaXQtb2YtZWFy/bHktMzBzLWluZGlh/bi1tYW4tc3RhbmRp/bmctb3V0ZG9vcnMu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PURLNEF2NmRrYmlT/LWtvTGtCT0s0dnY4/Smg0eV9LdEhSWGE0/NVE5N1JDUW89',
+    content: 'I recently visited Clean Spec Automotive for a regular car wash and wax, inspired by the positive videos and customer feedback Id seen. From the moment I walked in, I felt I had made the right choice. I had a consultation with Mr. Bhuvnesh, who provided a detailed explanation of its current condition.'
+  },
+   {
+    name: 'Jaise Paul',
+    car: 'Kia Seltos',
+    image: 'https://imgs.search.brave.com/df7klZxU8R8A0-We3vpMORMyO5GM5UMjg8EVevBAKig/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9z/dHlsaXNoLWluZGlh/bi1iZWFyZC1tb2Rl/bC1tYW4tY2FzdWFs/LWNsb3RoZXMtcG9z/ZWQtb3V0ZG9vci1z/dHJlZXQtaW5kaWFf/NjI3ODI5LTEyOTUz/LmpwZz9zZW10PWFp/c19oeWJyaWQmdz03/NDA',
+    content: 'One of the best car detailing and wash available nearby. Service was completely professional and the one who runs this knows each and every detail of the product they use. They take 100% responsibility for the car once it enters their garage unlike other places. This place also has free pick up and delivery. Amazing service team '
+  },
+  {
+    name: 'Edwin Lobo',
+    car: 'Shift',
+    image: 'https://imgs.search.brave.com/2zh6ymQrg5jXV4FZ_a-R5q0jlA3k6R_OEHAL1DvcsdY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA3Lzk2Lzg2LzUw/LzM2MF9GXzc5Njg2/NTA0MF9zbTR3WnhR/ekhZQ2JBQWR4aTR2/TzJkYzFHTWQ5UGhk/WC5qcGc',
+    content: 'Honestly guys this one is the BEST Detailing Studio in chennai Thanks a lot to CLEAN SPEC AUTOMOTIVE The perfect place for the best treatment to your vehicle 🏍️ 🚗 Simply awsome and widely recommend for all moto and car enthusiasts they are very professional and wonderful team work'
   }
 ];
 

@@ -5,27 +5,27 @@ import { ArrowRight } from 'lucide-react';
 
 const images = [
   {
-    url: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&q=80',
+    url: 'https://img-us.didaudo.net/us-locations/IN/000/036/36673/8the-detailing-garage-3m-genuine-productsceramic-coating-ppfcar-detailing-paint-protection-filmlajpat1.jpg?output=webp&fit=cover&w=800&h=600',
     title: 'Paint Protection Film',
     category: 'Paint Protection Film'
   },
   {
-    url: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&q=80',
+    url: 'https://ceramicpro.co.in/wp-content/uploads/2024/12/Ceramic-Coating-2.jpg',
     title: 'Ceramic Coating',
     category: 'Ceramic Coating'
   },
   {
-    url: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&q=80',
+    url: 'https://spruced.com.au/wp-content/uploads/2022/11/main-banner-mobile-graphene.png',
     title: 'Graphene Coating',
     category: 'Graphene Coating'
   },
   {
-    url: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&q=80',
+    url: 'https://img.freepik.com/premium-photo/manual-car-wash-with-pressurized-water-car-wash-outside-summer-car-washing-cleaning-car-using-high-pressure-water-washing-with-soap-close-up-concept_206268-870.jpg',
     title: 'Car Wash',
     category: 'Car Wash'
   },
   {
-    url: 'https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?auto=format&fit=crop&q=80',
+    url: 'https://5.imimg.com/data5/EC/SW/BJ/SELLER-9005253/steam-car-wash-for-cars-500x500.jpg',
     title: 'Interior Care',
     category: 'Interior Care'
   },

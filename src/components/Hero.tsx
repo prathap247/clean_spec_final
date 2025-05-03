@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const images = [
   "/kia.JPEG",
-  "/kiaa.JPEG",
+  "/kiaa.jpg",
   "/thar.JPEG",
   "/tharr.JPEG"
 ];

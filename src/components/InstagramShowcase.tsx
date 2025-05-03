@@ -4,13 +4,13 @@ import { Instagram, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'SANJAI K',
+    name: 'Bhuvanesh',
     car: 'Hunter 350',
-    image: '/insta1.jpeg',
+    image: 'https://imgs.search.brave.com/dItk2dkEMFEc8o7BBjTNTN_5wmmKIDJ9tBqAxOqq3iA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi95b3Vu/Zy1zbWlsaW5nLXNv/dXRoLWluZGlhbi10/YW1pbC1tYW4tbG9u/Zy1oYWlycy1iZWFy/ZC13ZWFyaW5nLWZ1/bGwtc2xlZXZlcy1o/dWdnaW5nLWhpbXNl/bGYtb25lc2VsZi1z/ZWxmLWNhcmUtd2hp/dGUtMjE5MDIzODI1/LmpwZw',
     content: 'I recently got PPF done for my Hunter 350 at Clean Spec Automotive, and I couldn’t be happier with the results. The team was professional, detail-oriented, and clearly passionate about what they do. The finish is absolutely flawless '
   },
   {
-    name: 'Priya Sundaram',
+    name: 'Gayathrie',
     car: 'Thar',
     image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80',
     content: 'My car is black color which got faded in this 3 and half years. They suggested me to opt for ceramic polish which restored the color and the finish was more than I expected. Thank you so much Clean spec and team.'
@@ -43,28 +43,28 @@ const testimonials = [
 
 const instagramPhotos = [
   {
-    url: 'https://images.unsplash.com/photo-1619405399517-d7fce0f13302?auto=format&fit=crop&q=80',
-    description: 'Porsche GT3 RS Paint Protection'
+    url: '/insta2.jpeg',
+    // description: 'Porsche GT3 RS Paint Protection'
   },
   {
-    url: 'https://images.unsplash.com/photo-1619405399517-d7fce0f13302?auto=format&fit=crop&q=80',
-    description: 'Mercedes AMG Ceramic Coating'
+    url: '/insta1.JPG',
+    // description: 'Mercedes AMG Ceramic Coating'
   },
   {
-    url: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&q=80',
-    description: 'BMW M4 Full Detail'
+    url: '/insta3.jpeg',
+    // description: 'BMW M4 Full Detail'
   },
   {
-    url: 'https://images.unsplash.com/photo-1619405399517-d7fce0f13302?auto=format&fit=crop&q=80',
-    description: 'Audi RS6 Graphene Coating'
+    url: '/insta4.jpeg',
+    // description: 'Audi RS6 Graphene Coating'
   },
   {
-    url: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80',
-    description: 'Lamborghini Paint Correction'
+    url: '/thar.JPEG',
+    // description: 'Lamborghini Paint Correction'
   },
   {
-    url: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80',
-    description: 'Ferrari Interior Detail'
+    url: '/insta5.png',
+    // description: 'Ferrari Interior Detail'
   }
 ];
 
