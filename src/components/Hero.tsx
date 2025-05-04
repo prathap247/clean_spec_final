@@ -1,42 +1,39 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Volume2, VolumeX } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const images = [
-  "/kia.JPEG",
-  "/kiaa.jpg",
-  "/thar.JPEG",
-  "/tharr.JPEG"
-];
-
 const Hero = () => {
-  const [currentImage, setCurrentImage] = useState(0);
+  const [isMuted, setIsMuted] = useState(true);
+  const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 5000);
-    return () => clearInterval(timer);
+    if (videoRef.current) {
+      videoRef.current.muted = true; // Ensure muted for autoplay
+      videoRef.current.play().catch((error) => {
+        console.error('Autoplay failed:', error);
+      });
+    }
   }, []);
+
+  const toggleMute = () => {
+    if (videoRef.current) {
+      videoRef.current.muted = !isMuted;
+      setIsMuted(!isMuted);
+    }
+  };
 
   return (
     <div className="relative h-[100svh] w-full overflow-hidden">
-      {images.map((image, index) => (
-        <motion.div
-          key={image}
-          className="absolute inset-0"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: currentImage === index ? 1 : 0 }}
-          transition={{ duration: 1 }}
-        >
-          <img
-            src={image}
-            alt="Luxury car detailing"
-            className="w-full h-full object-cover"
-          />
-        </motion.div>
-      ))}
+      <video
+        ref={videoRef}
+        src="/vid1.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      />
 
       <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent" />
 
@@ -72,17 +69,13 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-4 sm:bottom-8 right-4 sm:right-8 flex space-x-2">
-        {images.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentImage(index)}
-            className={`w-2 h-2 rounded-full transition-all duration-300 ${
-              currentImage === index ? 'w-6 sm:w-8 bg-primary' : 'bg-white/50'
-            }`}
-          />
-        ))}
-      </div>
+      <button
+        onClick={toggleMute}
+        className="absolute bottom-4 right-4 sm:bottom-8 sm:right-8 p-2 bg-black/50 rounded-full text-white hover:bg-black/70 transition"
+        aria-label="Toggle Mute"
+      >
+        {isMuted ? <VolumeX className="w-6 h-6" /> : <Volume2 className="w-6 h-6" />}
+      </button>
     </div>
   );
 };
