@@ -1,69 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Image, X } from 'lucide-react';
-import { useSearchParams } from 'react-router-dom';
 
 const images = [
-  {
-    url: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80',
-    title: 'Paint Protection Film',
-    category: 'Paint Protection Film'
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80',
-    title: 'Ceramic Coating',
-    category: 'Ceramic Coating'
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&q=80',
-    title: 'Graphene Coating',
-    category: 'Graphene Coating'
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80',
-    title: 'Car Wash',
-    category: 'Car Wash'
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?auto=format&fit=crop&q=80',
-    title: 'Interior Care',
-    category: 'Interior Care'
-  },
-  {
-    url: 'https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?auto=format&fit=crop&q=80',
-    title: 'Custom Services',
-    category: 'Custom Services'
-  }
+  { url: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=800&q=80', title: 'BMW M4' },
+  { url: 'https://images.unsplash.com/photo-1571607387031-67e219bc5e5e?auto=format&fit=crop&w=800&q=80', title: 'Mercedes-Benz AMG' },
+  { url: 'https://images.unsplash.com/photo-1600180758890-6eca1e22f771?auto=format&fit=crop&w=800&q=80', title: 'Audi R8' },
+  { url: 'https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&w=800&q=80', title: 'Chevrolet Camaro' },
+  { url: 'https://images.unsplash.com/photo-1612531861316-4c33380a9e9b?auto=format&fit=crop&w=800&q=80', title: 'Dodge Challenger' },
+  { url: 'https://images.unsplash.com/photo-1597009511667-41535985b5d4?auto=format&fit=crop&w=800&q=80', title: 'Lamborghini Huracán' },
+  { url: 'https://images.unsplash.com/photo-1583267745769-021d572a964b?auto=format&fit=crop&w=800&q=80', title: 'Tesla Model S' },
+  { url: 'https://images.unsplash.com/photo-1617301134739-45b0941cc1d1?auto=format&fit=crop&w=800&q=80', title: 'Porsche 911' },
+  { url: 'https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=800&q=80', title: 'Ford Mustang' },
+  { url: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80', title: 'Jeep Wrangler' },
+  { url: 'https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=800&q=80', title: 'Range Rover Sport' },
+  { url: 'https://images.unsplash.com/photo-1617082362018-9f71cdee08a2?auto=format&fit=crop&w=800&q=80', title: 'Toyota Supra' },
+  { url: 'https://images.unsplash.com/photo-1616676524556-b1c964f6399f?auto=format&fit=crop&w=800&q=80', title: 'Nissan GT-R' },
+  { url: 'https://images.unsplash.com/photo-1611967164524-0b1f216a19d0?auto=format&fit=crop&w=800&q=80', title: 'Aston Martin DB11' },
+  { url: 'https://images.unsplash.com/photo-1558981003-b918f312dfcd?auto=format&fit=crop&w=800&q=80', title: 'Ferrari 488' }
 ];
-
-const categories = ['All', ...new Set(images.map(img => img.category))];
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [searchParams, setSearchParams] = useSearchParams();
-  const categoryFromUrl = searchParams.get('category');
-  const [filter, setFilter] = useState(categoryFromUrl || 'All');
-
-  useEffect(() => {
-    if (categoryFromUrl) {
-      setFilter(categoryFromUrl);
-    }
-  }, [categoryFromUrl]);
-
-  // Filter the images based on the selected category
-  const filteredImages = filter === 'All'
-    ? images
-    : images.filter(img => img.category === filter);
-
-  const handleFilterChange = (category: string) => {
-    setFilter(category);
-    if (category === 'All') {
-      searchParams.delete('category');
-    } else {
-      searchParams.set('category', category);
-    }
-    setSearchParams(searchParams);
-  };
 
   return (
     <main className="min-h-screen">
@@ -93,40 +51,24 @@ const Gallery = () => {
         </div>
       </section>
 
-      {/* Gallery Section with Grid Background */}
+      {/* Gallery Section */}
       <section className="py-20 bg-black relative">
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent z-0">
           <div className="grid-pattern w-full h-full"></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="flex flex-wrap gap-4 justify-center mb-12">
-            {/* Category Filters */}
-            {categories.map((category) => (
-              <button
-                key={category}
-                onClick={() => handleFilterChange(category)}
-                className={`px-6 py-2 rounded-full transition-colors ${
-                  filter === category
-                    ? 'bg-primary text-white'
-                    : 'bg-accent text-white/70 hover:text-white'
-                }`}
-              >
-                {category}
-              </button>
-            ))}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Render filtered images */}
-            {filteredImages.map((image) => (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {images.map((image, idx) => (
               <motion.div
                 key={image.url}
                 layout
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="group relative overflow-hidden rounded-lg shadow-lg aspect-video cursor-pointer"
+                className={`group relative overflow-hidden rounded-lg shadow-lg cursor-pointer ${
+                  idx % 5 === 0 ? 'col-span-2 row-span-2' : 'aspect-square'
+                }`}
                 onClick={() => setSelectedImage(image.url)}
               >
                 <img
@@ -134,14 +76,57 @@ const Gallery = () => {
                   alt={image.title}
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3 className="text-white font-display text-xl">{image.title}</h3>
-                    <p className="text-white/70">{image.category}</p>
-                  </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                  <h3 className="text-white text-xl font-display">{image.title}</h3>
                 </div>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 🎥 Video Section */}
+      <section className="bg-black py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white font-display mb-12 text-center">
+            Featured Videos
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Local Video */}
+            <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
+              <video
+                src="/sample-video.mp4" // ⬅ Replace with your video filename in /public
+                controls
+                autoPlay
+                muted
+                loop
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            {/* YouTube 1 */}
+            <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
+              <iframe
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+
+            {/* YouTube 2 */}
+            <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
+              <iframe
+                src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
